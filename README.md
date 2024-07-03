@@ -1,14 +1,14 @@
 # Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL
 
-**Adidas US Sales Overview**
+**Adidas US Sales Overview**  
 Join me as we journey through the various stages as I perform Exploratory Data Analysis using SQL on this Adidas US sales data for the years 2020-2021, which I downloaded from Kaggle website. Staying ahead in the fast-paced world of retail necessitates not only high-quality products, but also a thorough awareness of industry trends. I made it my mission to uncover valuable insights, trends, track KPIs, sales performance, simplify complex data into actionable information that can be efficiently presented using data visualization using Microsoft Excel spreadsheet.
 
 
-**Dataset Summary**
+**Dataset Summary**  
 Adidas sales data provided variety of purposes, such as analyzing sales trends, identifying successful products or marketing campaigns, developing strategies for future sales and to analyze the effectiveness of different marketing or sales channels. This Sales dataset key columns include Retailer, Retailer ID, Invoice Date, Region, State, City, Product, Price per Unit, Units Sold, Total Sales Amount, Operating Cost, New Operating Profit, Operating Margin, and Sales Method.
 
 
-**Processes**
+**Processes**  
 Given that the dataset was in Microsoft Excel CSV format, I had to import the CSV file into SQL Server Management Studio (SSMS) in order to perform data cleaning and manipulation to ensure I have an accurate and consistent data, also to improve the quality and reliability of the data for analysis.
 
 
