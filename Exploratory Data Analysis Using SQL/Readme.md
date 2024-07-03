@@ -34,6 +34,6 @@ SELECT
     SUM(CASE WHEN sales_method IS NULL THEN 1 ELSE 0 END) AS sales_method_null_count
 
 FROM dbo.TheDataminant_Sales
-
+```
 ![Checking for null in dataset](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/5e355d19e691bc4b7a48ef9e82671b34504a6e09/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/Checking%20for%20null%20in%20dataset.jpg)
 
