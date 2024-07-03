@@ -48,6 +48,11 @@ WITH
 ![Preview of data in the table](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/a9fb868305516f58d356644110371db8209d3b63/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/Preview%20of%20dataset.jpg)
 
 ## Changing the table name 
+```sql
+-- Changing the table name 
+
+EXEC sp_rename 'Sales', 'TheDataminant_Sales' ;
+```
 ![Changing the table name](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/5e355d19e691bc4b7a48ef9e82671b34504a6e09/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/Changing%20the%20table%20name%20.jpg)
 
 ## Checking for null in dataset
