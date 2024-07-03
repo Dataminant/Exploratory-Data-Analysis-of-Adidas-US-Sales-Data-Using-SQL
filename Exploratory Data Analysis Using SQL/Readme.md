@@ -20,9 +20,9 @@ Given that the dataset was in Microsoft Excel CSV format, I had to import the CS
 -- Checking for NULL in the dataset
 SELECT 
     SUM(CASE WHEN retailer IS NULL THEN 1 ELSE 0 END) AS retailer_null_count,
-	SUM(CASE WHEN retailer_id IS NULL THEN 1 ELSE 0 END) AS retailer_id_null_count,
-	SUM(CASE WHEN invoice_date IS NULL THEN 1 ELSE 0 END) AS invoice_date_null_count,
-	SUM(CASE WHEN region IS NULL THEN 1 ELSE 0 END) AS region_null_count,
+    SUM(CASE WHEN retailer_id IS NULL THEN 1 ELSE 0 END) AS retailer_id_null_count,
+    SUM(CASE WHEN invoice_date IS NULL THEN 1 ELSE 0 END) AS invoice_date_null_count,
+    SUM(CASE WHEN region IS NULL THEN 1 ELSE 0 END) AS region_null_count,
     SUM(CASE WHEN state IS NULL THEN 1 ELSE 0 END) AS state_null_count,
     SUM(CASE WHEN city IS NULL THEN 1 ELSE 0 END) AS city_null_count,
     SUM(CASE WHEN product IS NULL THEN 1 ELSE 0 END) AS product_null_count,
