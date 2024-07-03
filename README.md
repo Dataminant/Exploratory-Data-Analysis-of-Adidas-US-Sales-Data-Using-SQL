@@ -49,9 +49,9 @@ Given that the dataset was in Microsoft Excel CSV format, I had to import the CS
 
 📍 Profitability Analysis:
 
-What is the difference in profitability by sales methods
+    What is the difference in profitability by sales methods
 
-What is the profit margin for different products
+    What is the profit margin for different products
 
 
 
