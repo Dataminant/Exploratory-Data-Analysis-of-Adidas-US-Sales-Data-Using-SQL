@@ -114,4 +114,32 @@ FETCH FIRST 1 ROWS ONLY;
 ```
 ![What is the 2nd best sales method by sales total](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/134122f1ff3f10651479c55b49192294d9db523b/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/What%20is%20the%202nd%20best%20sales%20method%20by%20sales%20total.jpg)
 
+#### What is the top 3 product?
+```sql
+-- What is the top 3 product?
+SELECT TOP 3 product, SUM(total_sales) AS total_sales
+FROM dbo.TheDataminant_Sales
+GROUP BY product
+ORDER BY SUM(total_sales) DESC
+```
+![What is the top 3 product](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/b2f37418710dc4611060b9020f39e7f5be651e72/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/What%20is%20the%20top%203%20product.jpg)
 
+#### What is the average daily sales value by retailer?
+```sql
+-- What is the average daily sales value by retailer?
+
+-- 2020
+SELECT retailer, ROUND(AVG(total_sales), 0) AS average_daily_sales
+FROM dbo.TheDataminant_Sales
+WHERE DATENAME (YEAR, invoice_date ) = 2020
+GROUP BY retailer
+ORDER BY AVG(total_sales) DESC
+
+-- 2021
+SELECT retailer, ROUND(AVG(total_sales), 0) AS average_daily_sales
+FROM dbo.TheDataminant_Sales
+WHERE DATENAME (YEAR, invoice_date ) = 2021
+GROUP BY retailer
+ORDER BY AVG(total_sales) DESC
+```
+![What is the average daily sales value by retailer](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/b2f37418710dc4611060b9020f39e7f5be651e72/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/What%20is%20the%20average%20daily%20sales%20value%20by%20retailer%20by%20year.jpg)
