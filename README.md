@@ -17,44 +17,39 @@ Given that the dataset was in Microsoft Excel CSV format, I had to import the CS
 
 📍 **Sales Analysis:**
 
-  Total revenue generated over the period of time
+    Total revenue generated over the period of time
 
-  Total Profit generated over the period of time 
+    Total Profit generated over the period of time 
 
-  What is the total unit of product sold? 
+    What is the total unit of product sold? 
 
-  What is the average sale per quality sold?
+    What is the average sale per quality sold?
 
-  What is the performance of sale channels 
+    What is the performance of sale channels 
+
 
 
 📍 **Product Analysis:**
 
-  What are the top product?
+    What is the top product?
 
-  Who is the top retailer?
+    Who is the top retailer?
+
 
 
 📍 **Time Series Analysis:**
 
-  Thread In Sales
+    Thread In Sales: Daily, Weekly, Quarterly, Monthly and Yearly 
 
-  Yearly Gross Profit
+    Yearly Gross Profit
 
-  YoY Sales Growth
+    YoY Sales Growth
 
-
-📍 **Profitability Analysis:**
-
-  What is the difference in profitability by sales methods
-
-  What is the profit margin for different products
 
 
 📍 **Geographical Analysis:**
 
-  Sales revenue by region and state
-
+     Sales revenue by region and state  
 
 
 **Conclusion**
