@@ -4,9 +4,44 @@
 Given that the dataset was in Microsoft Excel CSV format, I had to import the CSV file into SQL Server Management Studio (SSMS) in order to perform data cleaning and manipulation to ensure I have an accurate and consistent data, also to improve the quality and reliability of the data for analysis.
 
 ## Creating table
+```sql
+CREATE TABLE Sales (
+        retailer  CHARACTER VARYING (255),
+	retailer_id INTEGER,
+	invoice_date  DATE,
+	region CHARACTER VARYING (255),
+	state   CHARACTER VARYING (255),
+	city  CHARACTER VARYING (255),
+	product CHARACTER VARYING (255),
+	price_per_unit INTEGER,
+	units_sold  NUMERIC,
+	total_sales NUMERIC,
+	operating_profit NUMERIC,
+	operating_margin NUMERIC,
+	sales_method CHARACTER VARYING (255)
+   
+);
+```
+
 ![Creating table](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/220e807be88d8cc7d379e06c84c243a3d951e76c/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/Creating%20Table.jpg)
 
 ## Bulk insert values into table
+```sql
+--  Bulk insert values into table
+
+BULK INSERT dbo.Sales
+FROM 'C:\Users\HP\Desktop\Kaggle_Adidas_US_Sales.csv'
+WITH
+(
+
+    FORMAT = 'CSV',
+	FIRSTROW = 2
+
+)
+;
+
+```
+
 ![Insert Values into Table](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/6901c8bcadc885646acd4363e22af5dc630a5cd7/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/Bulk%20inserting%20details%20into%20Tabble.jpg)
 
 ## Preview of data in the table 
