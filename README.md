@@ -17,9 +17,9 @@ Given that the dataset was in Microsoft Excel CSV format, I had to import the CS
 
 📍 **Sales Analysis:**
 
-    Total revenue generated over the period of time
+    - Total revenue generated over the period of time
 
-    Total Profit generated over the period of time 
+    - Total Profit generated over the period of time 
 
     What is the total unit of product sold? 
 
