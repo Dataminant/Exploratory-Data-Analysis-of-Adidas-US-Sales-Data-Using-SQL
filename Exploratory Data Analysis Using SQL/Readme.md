@@ -140,6 +140,7 @@ ORDER BY AVG(total_sales) DESC
 #### What is the top 3 product?
 ```sql
 -- What is the top 3 product?
+
 SELECT TOP 3 product, SUM(total_sales) AS total_sales
 FROM dbo.TheDataminant_Sales
 GROUP BY product
@@ -184,5 +185,17 @@ ORDER BY SUM (units_sold) DESC
 ```
 ![Which is most purchased between men’s and women’s product](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/c66a9bcb371e86f01ed5825d4dd1213f94381b52/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/Which%20is%20most%20purchased%20between%20men%E2%80%99s%20and%20women%E2%80%99s%20product.jpg)
 
+### Profitability Analysis
+
+#### What is the difference in profitability by sales methods?
+```
+--What is the difference in profitability by sales methods?
+
+SELECT sales_method, ROUND(AVG(operating_margin * 100),0) AS operating_margin
+FROM dbo.TheDataminant_Sales
+GROUP BY sales_method
+ORDER BY operating_margin DESC
+
+```
 
 
