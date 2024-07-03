@@ -69,5 +69,5 @@ The company experienced an impressive increase in revenue and profit in 2021 ove
 The company must use various digital marketing strategies to improve online sales, since it is expected that in the current technological environment, online sales would do better than in-store sales. 
 For the upcoming years, the company should continue to adapt and improve on the strategies from 2021 in order to see an increase in growth rate.
 
-![adidas_us_sales](adidasshot.jpg)
+![adidas](adidasshot.jpg)
 
