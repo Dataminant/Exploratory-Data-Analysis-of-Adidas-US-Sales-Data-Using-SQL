@@ -114,16 +114,6 @@ FETCH FIRST 1 ROWS ONLY;
 ```
 ![What is the 2nd best sales method by sales total](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/134122f1ff3f10651479c55b49192294d9db523b/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/What%20is%20the%202nd%20best%20sales%20method%20by%20sales%20total.jpg)
 
-#### What is the top 3 product?
-```sql
--- What is the top 3 product?
-SELECT TOP 3 product, SUM(total_sales) AS total_sales
-FROM dbo.TheDataminant_Sales
-GROUP BY product
-ORDER BY SUM(total_sales) DESC
-```
-![What is the top 3 product](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/b2f37418710dc4611060b9020f39e7f5be651e72/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/What%20is%20the%20top%203%20product.jpg)
-
 #### What is the average daily sales value by retailer?
 ```sql
 -- What is the average daily sales value by retailer?
@@ -143,3 +133,56 @@ GROUP BY retailer
 ORDER BY AVG(total_sales) DESC
 ```
 ![What is the average daily sales value by retailer](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/b2f37418710dc4611060b9020f39e7f5be651e72/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/What%20is%20the%20average%20daily%20sales%20value%20by%20retailer%20by%20year.jpg)
+
+
+### Product Analysis
+
+#### What is the top 3 product?
+```sql
+-- What is the top 3 product?
+SELECT TOP 3 product, SUM(total_sales) AS total_sales
+FROM dbo.TheDataminant_Sales
+GROUP BY product
+ORDER BY SUM(total_sales) DESC
+```
+![What is the top 3 product](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/b2f37418710dc4611060b9020f39e7f5be651e72/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/What%20is%20the%20top%203%20product.jpg)
+
+#### Which categories of product are the most popular footwear or apparel?
+```sql
+-- Which categories of product are the most popular (footwear/apparel)?
+
+SELECT product_by_categories, SUM (units_sold) AS total_units_sold
+FROM (
+       SELECT 
+             CASE WHEN  product LIKE '%Footwear' THEN 'Footwear'
+		  WHEN product LIKE '%Apparel' THEN 'Apparel'
+             END AS product_by_categories, units_sold
+       FROM dbo.TheDataminant_Sales
+) 
+AS product_by_categories
+GROUP BY  product_by_categories
+ORDER BY SUM (units_sold) DESC
+```
+![Which categories of product are the most popular footwear or apparel?](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/c66a9bcb371e86f01ed5825d4dd1213f94381b52/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/Which%20categories%20of%20product%20are%20the%20most%20popular%20footwear%20or%20apparel.jpg)
+
+#### Which is most purchased between men’s and women’s product?
+```sql
+-- Which is most purchased between men’s and women’s product?
+
+SELECT product_by_gender, SUM (units_sold) AS total_units_sold
+FROM (
+       SELECT 
+             CASE WHEN  product LIKE 'Men%' THEN 'Men'
+		  WHEN product LIKE 'Women%' THEN 'Women'
+             END AS product_by_gender, units_sold
+       FROM dbo.TheDataminant_Sales
+) 
+AS product_by_gender
+GROUP BY  product_by_gender
+ORDER BY SUM (units_sold) DESC
+
+```
+![Which is most purchased between men’s and women’s product](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/c66a9bcb371e86f01ed5825d4dd1213f94381b52/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/Which%20is%20most%20purchased%20between%20men%E2%80%99s%20and%20women%E2%80%99s%20product.jpg)
+
+
+
