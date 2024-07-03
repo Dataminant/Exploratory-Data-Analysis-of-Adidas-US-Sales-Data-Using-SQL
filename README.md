@@ -1,4 +1,4 @@
-# Exploratory Data Analysis of Adidas US Sales Using_SQL
+# Exploratory Data Analysis of Adidas US Sales Using SQL
 
 ## Adidas US Sales Overview  
 Join me as we journey through the various stages as I perform Exploratory Data Analysis using SQL on this Adidas US sales data for the years 2020-2021, which I downloaded from Kaggle website. Staying ahead in the fast-paced world of retail necessitates not only high-quality products, but also a thorough awareness of industry trends. I made it my mission to uncover valuable insights, trends, track KPIs, sales performance, simplify complex data into actionable information that can be efficiently presented using data visualization using Microsoft Excel spreadsheet.
