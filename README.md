@@ -19,10 +19,6 @@ Given that the dataset was in Microsoft Excel CSV format, I had to import the CS
 
     Total revenue generated over the period of time
 
-    Total Profit generated over the period of time 
-
-    What is the total unit of product sold? 
-
     What is the average sale per quality sold?
 
     What is the performance of sale channels 
