@@ -70,3 +70,4 @@ The company must use various digital marketing strategies to improve online sale
 For the upcoming years, the company should continue to adapt and improve on the strategies from 2021 in order to see an increase in growth rate.
 
 ![adidas_us_sales](adidasshot.jpg)
+
