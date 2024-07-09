@@ -55,7 +55,10 @@ WITH
   
 ## Preview of data in the table 
 ![Preview of data in the table](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/a9fb868305516f58d356644110371db8209d3b63/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/Preview%20of%20dataset.jpg)
+ &nbsp;
 
+  &nbsp;
+  
 ## Changing the table name 
 ```sql
 -- Changing the table name 
