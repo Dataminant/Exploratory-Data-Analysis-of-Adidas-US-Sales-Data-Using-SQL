@@ -160,7 +160,9 @@ GROUP BY retailer
 ORDER BY AVG(total_sales) DESC;
 ```
 ![What is the average daily sales value by retailer](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/b2f37418710dc4611060b9020f39e7f5be651e72/Exploratory%20Data%20Analysis%20Using%20SQL/Questions/What%20is%20the%20average%20daily%20sales%20value%20by%20retailer%20by%20year.jpg)
+ &nbsp;
 
+  &nbsp;
 
 ### Product Analysis
 
