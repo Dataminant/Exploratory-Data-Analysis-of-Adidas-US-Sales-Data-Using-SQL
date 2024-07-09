@@ -97,7 +97,7 @@ FROM dbo.TheDataminant_Sales;
   
 ## Key Questions to Explore
 
-### Sales Analysis
+## Sales Analysis
 
 #### What is the total revenue generated?
 
@@ -164,7 +164,7 @@ ORDER BY AVG(total_sales) DESC;
 
   &nbsp;
 
-### Product Analysis
+## Product Analysis
 
 #### What is the top 3 product?
 ```sql
@@ -224,7 +224,7 @@ ORDER BY SUM (units_sold) DESC;
 
   &nbsp;
   
-### Profitability Analysis
+## Profitability Analysis
 
 #### What is the difference in profitability by sales methods?
 ```sql
@@ -268,7 +268,7 @@ ON OM2020.product = OM2021.product ;
 
   &nbsp;
   
-### Geographical Analysis
+## Geographical Analysis
 
 #### What is the top 3 regions by sales?
 ```sql
