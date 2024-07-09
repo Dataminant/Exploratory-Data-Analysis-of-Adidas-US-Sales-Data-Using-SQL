@@ -95,7 +95,7 @@ FROM dbo.TheDataminant_Sales;
 
   &nbsp;
   
-## Key Questions to Explore
+## Key Questions to Explore:
 
 ## Sales Analysis
 
