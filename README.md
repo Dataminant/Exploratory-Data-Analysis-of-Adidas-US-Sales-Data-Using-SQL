@@ -11,6 +11,7 @@ Join me as we journey through the various stages as I perform Exploratory Data A
 Adidas sales data provided variety of purposes, such as analyzing sales trends, identifying successful products or marketing campaigns, developing strategies for future sales and to analyze the effectiveness of different marketing or sales channels. This Sales dataset key columns include Retailer, Retailer ID, Invoice Date, Region, State, City, Product, Price per Unit, Units Sold, Total Sales Amount, Operating Cost, New Operating Profit, Operating Margin, and Sales Method.
   &nbsp;
 
+&nbsp;
   
 ## Key Questions to Explore
 
