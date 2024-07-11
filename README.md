@@ -1,5 +1,7 @@
 # Exploratory Data Analysis of Adidas US Sales Using SQL
 
+![adidas_us_sales](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/00186966b11e4c8ca1bceb64bc162b493281b0be/adidas%20shot.jpg)
+
 ## Introduction  
 Join me as we journey through the various stages as I perform Exploratory Data Analysis using SQL on this Adidas US sales data for the years 2020-2021, which I downloaded from Kaggle website. Staying ahead in the fast-paced world of retail necessitates not only high-quality products, but also a thorough awareness of industry trends. I made it my mission to uncover valuable insights, trends, track KPIs, sales performance, simplify complex data into actionable information that can be efficiently presented through data visualization using Microsoft Excel.
 
@@ -63,4 +65,4 @@ The company experienced an impressive increase in revenue and profit in 2021 ove
 The company must use various digital marketing strategies to improve online sales, since it is expected that in the current technological environment, online sales would do better than in-store sales. 
 For the upcoming years, the company should continue to adapt and improve on the strategies from 2021 in order to see an increase in growth rate.
 
-![adidas_us_sales](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/00186966b11e4c8ca1bceb64bc162b493281b0be/adidas%20shot.jpg)
+
