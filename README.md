@@ -62,8 +62,10 @@ Adidas sales data provided variety of purposes, such as analyzing sales trends, 
 
 ## Conclusion
 The company experienced an impressive increase in revenue and profit in 2021 over the previous year which is positive for business. Details information regarding the purchases made by individual customers were not included in the dataset, which is helpful in conducting customer behavior analysis, that would better provide insight into how to better serve customers and increase revenue. 
+  &nbsp;
 
-
+&nbsp;
+  
 ## Recommendation
 The company must use various digital marketing strategies to improve online sales, since it is expected that in the current technological environment, online sales would do better than in-store sales. 
 For the upcoming years, the company should continue to adapt and improve on the strategies from 2021 in order to see an increase in growth rate.
