@@ -1,9 +1,7 @@
 # Exploratory Data Analysis of Adidas US Sales Using SQL
 
 ![adidas_us_sales](https://github.com/Dataminant/Exploratory-Data-Analysis-of-Adidas_US_Sales_Dataset_Using_SQL/blob/00186966b11e4c8ca1bceb64bc162b493281b0be/adidas%20shot.jpg)
- &nbsp;
-
-  &nbsp;
+   &nbsp;
   
 ## Introduction  
 Join me as we journey through the various stages as I perform Exploratory Data Analysis using SQL on this Adidas US sales data for the years 2020-2021, which I downloaded from Kaggle website. Staying ahead in the fast-paced world of retail necessitates not only high-quality products, but also a thorough awareness of industry trends. I made it my mission to uncover valuable insights, trends, track KPIs, sales performance, simplify complex data into actionable information that can be efficiently presented through data visualization using Microsoft Excel.
@@ -11,8 +9,8 @@ Join me as we journey through the various stages as I perform Exploratory Data A
 
 ## Dataset Summary  
 Adidas sales data provided variety of purposes, such as analyzing sales trends, identifying successful products or marketing campaigns, developing strategies for future sales and to analyze the effectiveness of different marketing or sales channels. This Sales dataset key columns include Retailer, Retailer ID, Invoice Date, Region, State, City, Product, Price per Unit, Units Sold, Total Sales Amount, Operating Cost, New Operating Profit, Operating Margin, and Sales Method.
-
-
+  &nbsp;
+  
 ## Key Questions to Explore
 
 📍 **Sales Analysis:**
